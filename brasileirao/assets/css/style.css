@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-title{
+    text-align: center;
+    margin-left: -300px;
+    margin-top: 50px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.page-title img{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 180px;
+}
+.page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.table-area{
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #0e0f23;
+    box-shadow: 
+        0 10px 20px rgba(0, 0, 0, 0.5),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+.table-head{
+    height: 40px;
+    background-color: #0e0f23;
+    color: #fd3d00;
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.table-head-pontos{
+    background-color: #fd3d00;
+    color: #0e0f23;
+}
+.table-body{
+    height: 40px;
+    background-color: #fff;
+    color: #0e0f23;
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.table-body tr{
+    border-bottom: 1px solid #ded9d7;
+}
+.table-sit-liber{
+    position: absolute;
+    margin-top: -4px;
+    width: 5px;
+    height: 30px;
+    background-color: blue;
+}
+.table-sit-prelib{
+    position: absolute;
+    margin-top: -4px;
+    width: 5px;
+    height: 30px;
+    background-color: orange;
+}
+.table-sit-sula{
+    position: absolute;
+    margin-top: -4px;
+    width: 5px;
+    height: 30px;
+    background-color: green;
+}
+.table-sit-reb{
+    position: absolute;
+    margin-top: -4px;
+    width: 5px;
+    height: 30px;
+    background-color: red;
+}
+.table-equipe{
+    width: 200px;
+}
+.table-equipe img{
+    margin-top: 5px;
+    margin-left: -150px;
+}
+.table-equipe span{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.table-pontos{
+    background-color: #0e0f23;
+    color: #fff;
+    border-bottom: 1px solid #0e0f23;
+}
+.page-information{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 610px;
+    height: 250px;
+    display: flex;
+    background-color: #0e0f23;
+    box-shadow: 
+        0 10px 20px rgba(0, 0, 0, 0.5),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+.page-information-classireb{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #fff;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-information-classireb span{
+    margin-left: 30px;
+    margin-top: 6px;
+    position: absolute;
+}
+.liber{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    background-color: blue;
+    position: absolute;
+}
+.preliber{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    background-color: orange;
+    position: absolute;
+}
+.sula{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    background-color: green;
+    position: absolute;
+}
+.reb{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    background-color: red;
+    position: absolute;
+}
+.page-information-vitempder{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #fff;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-information-vitempder img{
+    position: absolute;
+    margin-top: 5px;
+}
+.page-information-vitempder span{
+    margin-left: 30px;
+    margin-top: 6px;
+    position: absolute;
+}
+.page-footer{
+    margin-top: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.page-footer i{
+    color: #fff;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.page-footer p{
+    padding-top: 30px;
+    margin-left: 350px;
+}
+.page-footer a{
+    position: absolute;
+    margin-left: 40px;
+    color: #fff;
+}
+.page-footer a:hover{
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.3);
+    transition: 0.8s;
+}
+td:hover{
+    transition: transform 1s;
+    background-color: #ded9d7;
+    color: #0e0f23;
+    border-bottom: 3px solid #fd3d00 ;
+}
+.page-information:hover{
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
